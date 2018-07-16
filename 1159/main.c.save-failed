@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int value;
+    int sum = 0;
+    int count = 0;
+
+    printf("Digite um Valor: ");
+    scanf("%d", &value);
+
+    while(value != 0){
+
+        while(count < 5){
+
+            if(value % 2 == 0){
+
+                sum = sum + value;
+                value = value + 2;
+
+                count++;
+
+            }else if(value % 2 != 0){
+
+                value += 1;
+
+                if(value % 2 == 0){
+
+                    sum = sum + value;
+                    value = value + 2;
+
+                    count++;
+
+                }
+            }
+
+        }
+
+        printf("Soma = %d\n",sum);
+        scanf("%d", &value);
+
+    }
+
+    return 0;
+}

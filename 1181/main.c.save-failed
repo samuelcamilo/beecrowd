@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int matriz[2][2];
+    char opcao[0] = 'A';
+    int sum = 0;
+    int med = 0;
+    int i, j;
+
+    /// Ler linha de inicio.
+    scanf("%d", &i);
+    scanf("%c", &opcao);
+    if(opcao == 'S'){
+
+        for(i = 0; i < 2; i++){
+
+            for(j = 0; j < 2; j++){
+                scanf("%d", &matriz[i][j]);
+                sum += matriz[i][j];
+            }
+        }
+        printf(sum);
+
+    }else if(opcao == 'M'){
+
+        for(i = 0; i < 2; i++){
+
+            for(j = 0; j < 2; j++){
+                scanf("%d", &matriz[i][j]);
+                med += matriz[i][j];
+                med = med/2;
+            }
+        }
+        printf(med);
+    }
+    /*
+    for ( i=0; i<2; i++ ){
+
+        for ( j=0; j<2; j++ ){
+
+            printf ("\nElemento[%d][%d] = %d\n", i, j,matriz[ i ][ j ]);
+
+        }
+
+    }
+    */
+
+    return 0;
+}
