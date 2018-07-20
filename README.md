@@ -16,4 +16,4 @@ O URI Online Judge contém mais de 1000 problemas divididos em 8 grandes categori
 - SQL
 
 # Status
-Atualmente estou na 18.482º posição geral, buscando a primeira colocação (não é impossível kk).
+Atualmente estou na posição 17.828º do ranking geral e em 180º no ranking do IFCE, buscando a primeira colocação (não é impossível kk).
