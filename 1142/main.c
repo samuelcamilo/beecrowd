@@ -3,12 +3,14 @@
 
 int main()
 {
-    int entrada = 7;
+    int entrada;
     int PUM = 4;
     int FIM = 1;
     int aux = 1;
     int i = 0;
     int j = 0;
+
+    scanf("%d", &entrada);
 
     for(i = 1; i <= entrada; i++){
         for(j = aux; j <= (PUM*i); j++){
