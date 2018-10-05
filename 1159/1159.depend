@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1538707369 source:c:\fontedesenvolvimento\github\uri-online-judge\1159\main.c
+	<stdio.h>
+	<stdlib.h>
+

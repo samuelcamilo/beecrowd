@@ -3,45 +3,29 @@
 
 int main()
 {
-    int value;
-    int sum = 0;
-    int count = 0;
+    int entrada;
+    int somatorio = 0;
+    int cont = 0;
 
-    //printf("Digite um Valor: ");
-    scanf("%d", &value);
+    scanf("%d", &entrada);
+    while(entrada != 0){
 
-    while(value != 0){
-
-        while(count < 5){
-
-            if(value % 2 == 0){
-
-                sum = sum + value;
-                value = value + 2;
-
-                count++;
-
-            }else if(value % 2 != 0){
-
-                value += 1;
-
-                if(value % 2 == 0){
-
-                    sum = sum + value;
-                    value = value + 2;
-
-                    count++;
-
-                }
+        while(cont < 5){
+            if(entrada % 2 == 0){
+                somatorio = somatorio + entrada;
+                entrada = entrada + 2;
+            }else if(entrada % 2 != 0){
+                entrada = entrada + 1;
+                somatorio = somatorio + entrada;
+                entrada = entrada + 2;
             }
-
+            cont++;
         }
+        printf("%d\n", somatorio);
+        scanf("%d", &entrada);
 
-        printf("%d\n",sum);
-        sum = 0;
-        count = 0;
-        scanf("%d", &value);
-
+        somatorio = 0;
+        cont = 0;
     }
 
     return 0;
