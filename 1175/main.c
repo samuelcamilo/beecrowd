@@ -3,14 +3,23 @@
 
 int main()
 {
-    int vetor1[5] = {1,2,7,3,8};
+    int vetorOriginal[20];
+    int vetorInverso[20];
     int cont = 0;
+    int i = 0;
 
-    for(cont = 0; cont < 5; cont++){
-        printf("Vetor[%d] = %d\n", cont, vetor1[cont]);
+    for(cont = 0; cont < 20; cont++){
+        scanf("%d", &vetorOriginal[cont]);
     }
 
-    printf("------------\n");
+    for(cont = 19; cont >= 0; cont--){
+        vetorInverso[i] = vetorOriginal[cont];
+        i++;
+    }
+
+    for(cont = 0; cont < 20; cont++){
+        printf("N[%d] = %d\n", cont,vetorInverso[cont]);
+    }
 
     return 0;
 }
