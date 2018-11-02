@@ -16,4 +16,4 @@ O URI Online Judge contém mais de 1000 problemas divididos em 8 grandes categor
 - SQL
 
 # Status
-Atualmente estou na posição 14414º do ranking geral e em 3º no ranking do FFB(Faculdade Farias Brito), buscando a primeira colocação.
+Atualmente estou na posição 12.316º do ranking geral e em 3º no ranking do FFB(Faculdade Farias Brito), buscando a primeira colocação.
