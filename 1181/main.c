@@ -1,55 +1,36 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <String.h>
+#include <string.h>
 
 int main()
 {
-    float matriz[3][3];
-    int linha = 0;
-    char opcao[1];
-    float sum = 0;
-    float med = 0;
+    float matriz[12][12];
     int i, j;
+    int linha;
+    float entrada;
+    float somatorio = 0.0;
+    char tipoOper[2];
 
-    /// Ler linha de inicio.
-    scanf("%f", &linha);
+    scanf("%d", &linha);
+    getchar();
 
-    /// Limpa Buffer e Ler Opcao.
-    fflush(stdin);
-    gets(opcao);
+    gets(tipoOper);
 
-    for(i = 0; i < 3; i++){
-
-        for(j = 0; j < 3; j++){
-
-            scanf("%f", &matriz[i][j]);
-
+    for(i = 0; i < 12; i++){
+        for(j = 0; j < 12; j++){
+            scanf("%f", &entrada);
+            matriz[i][j] = entrada;
         }
     }
 
-    /// Operacao.
-    if(strcmp (opcao, "S") == 0){
+    for(i = linha; i <= linha; i++)
+        for(j = 0; j < 12; j++)
+            somatorio = somatorio + matriz[i][j];
 
-        for(j = 0; j < 3; j++){
-
-            //scanf("%d", &matriz[linha][j]);
-            sum += matriz[linha][j];
-        }
-
-        printf("%.1f\n", sum);
-
-    }else if(strcmp (opcao, "M") == 0){
-
-        for(j = 0; j < 3; j++){
-
-            //scanf("%d", &matriz[linha][j]);
-            med += matriz[linha][j];
-
-        }
-
-        med = med / 12;
-        printf("%.1f\n", med);
-
+    if(strcmp(tipoOper, "S") == 0){
+        printf("%.1f\n", somatorio);
+    }else{
+        printf("%.1f\n", (somatorio/12));
     }
 
     return 0;
