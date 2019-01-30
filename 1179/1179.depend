@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1548819003 source:c:\fontes\uri-online-judge\1179\main.c
+	<stdio.h>
+	<stdlib.h>
+
