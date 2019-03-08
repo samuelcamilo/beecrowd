@@ -1,0 +1,11 @@
+C:\GitHub\uri-online-judge\1848\bin\Debug\netcoreapp2.1\1848.deps.json
+C:\GitHub\uri-online-judge\1848\bin\Debug\netcoreapp2.1\1848.runtimeconfig.json
+C:\GitHub\uri-online-judge\1848\bin\Debug\netcoreapp2.1\1848.runtimeconfig.dev.json
+C:\GitHub\uri-online-judge\1848\bin\Debug\netcoreapp2.1\1848.dll
+C:\GitHub\uri-online-judge\1848\bin\Debug\netcoreapp2.1\1848.pdb
+C:\GitHub\uri-online-judge\1848\obj\Debug\netcoreapp2.1\1848.csprojAssemblyReference.cache
+C:\GitHub\uri-online-judge\1848\obj\Debug\netcoreapp2.1\1848.csproj.CoreCompileInputs.cache
+C:\GitHub\uri-online-judge\1848\obj\Debug\netcoreapp2.1\1848.AssemblyInfoInputs.cache
+C:\GitHub\uri-online-judge\1848\obj\Debug\netcoreapp2.1\1848.AssemblyInfo.cs
+C:\GitHub\uri-online-judge\1848\obj\Debug\netcoreapp2.1\1848.dll
+C:\GitHub\uri-online-judge\1848\obj\Debug\netcoreapp2.1\1848.pdb
